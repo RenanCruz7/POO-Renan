@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class Funcionario extends Pessoa {
+abstract public class Funcionario extends Pessoa {
 
     Date dataAdmimissao;
     String matricula;

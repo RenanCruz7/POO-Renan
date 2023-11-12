@@ -1,4 +1,4 @@
-public class Pessoa {
+abstract public class Pessoa {
     String	nome;
     String	sexo;
 
