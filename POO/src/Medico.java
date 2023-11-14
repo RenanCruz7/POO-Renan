@@ -12,5 +12,6 @@ abstract public class Medico extends Funcionario {
         this.CRM = CRM;
     }
 
+    //Polimorfismo
     abstract void operar();
 }

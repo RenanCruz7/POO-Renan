@@ -3,6 +3,8 @@ public class Anestesista extends Medico {
         super(nome, sexo, matricula);
     }
 
+
+    //Polimorfismo sendo aplicado aqui
     @Override
     void operar() {
         System.out.println("realizando operação");
