@@ -57,23 +57,10 @@ class Personagem{
 
 public class Main {
     public static void main(String[] args) {
-        Personagem p1 = new Personagem();
-        Personagem p2 = new Personagem();
+        Anestesista a1 = new Anestesista("Renan","Masculino","123456");
+        a1.operar();
 
-        p1.setNome("Renan");
-        p1.setCor("Vermelho");
-        p1.setAltura(1.8F);
-        p1.setPossuiBigode(false);
-        p1.setTipoFisico("Magro");
-
-        System.out.println(p1.nome);
-        System.out.println(p1.cor);
-        System.out.println(p1.altura);
-        System.out.println(p1.possuiBigode);
-        System.out.println(p1.tipoFisico);
-
-        System.out.println(p1.hashCode());
-        System.out.println(p1.equals(p2));
-        System.out.println(p1.toString());
+        ResidenteAnestesista ra = new ResidenteAnestesista("Renan","Masculino","56789");
+        ra.operar();
     }
 }

@@ -16,7 +16,8 @@ public class ResidenteAnestesista extends Anestesista {
     //Sobrescrita sendo aplicada aqui, estou reescrevendo o meto operar explicação no caderno
     @Override
     void operar() {
-        System.out.println("realizando operação sendo um residente");
+        super.operar();
+        System.out.println("realizando algo a mais......");
     }
 
 }
