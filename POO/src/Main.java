@@ -1,3 +1,6 @@
+import entidades.Anestesista;
+import entidades.ResidenteAnestesista;
+
 class Personagem{
     String nome;
     String cor;

@@ -1,3 +1,5 @@
+package entidades;
+
 abstract public class Medico extends Funcionario {
     int	CRM;
     public Medico(String nome, String sexo, String matricula) {

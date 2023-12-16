@@ -1,3 +1,5 @@
+package entidades;
+
 import java.util.Date;
 
 abstract public class Funcionario extends Pessoa {
